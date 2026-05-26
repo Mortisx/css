@@ -1,0 +1,180 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    font: normal 16px 'Roboto', sans-serif;
+
+
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    marbin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+.info {
+    text-align: center;
+    display: block;
+}
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-size: italic 16px 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: uppercase;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+/*.social {
+    background-color: #c396ce;
+    padding: 20px 40px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin: 5px;
+
+    border: 5px solid rgb(185, 120, 185);
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: rgb(131, 61, 131);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+/*.box-model >div {
+    float: left;
+    background: 200px;
+    height: 200px;
+    border: 4px solid rgb(202, 112, 202);
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+   background: #fff9dc; 
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+.card {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color:#86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+
+   
+.table td {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #d8cbcb;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*Position */
+
+.position {
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+.box {
+    position: static;
+    width: 50px;
+    height: 50px;
+    background-color: #c396ce;
+}
